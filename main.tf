@@ -25,6 +25,7 @@ resource "aws_ecr_repository" "mysql_repo" {
   }
 }
 
+
 # Create AWS ECR repository to store background images
 resource "aws_s3_bucket" "background_bucket" {
   bucket = "clo835-final-group9-background-bucket"
